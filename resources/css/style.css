@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  transition: all 0.5s;
 }
 
 body {
@@ -15,15 +16,17 @@ body {
 
 /* Header */
 
+
 header {
   background-image: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7)),
     url("img/hero.jpg");
   /* background-color: red; */
   background-position: center;
   background-size: cover;
-  height: 100dvh;
   /* width: 100dvw; */
+height : 100vh;
   padding: 25px 110px;
+	
 }
 
 /* Nav */
@@ -54,10 +57,15 @@ header > nav > #main__nav p {
   text-transform: uppercase;
   cursor: pointer;
   padding: 10px;
+	transition : all 1s
 }
 
 header > nav > #main__nav p:hover {
   border-bottom: #e67e22 1px solid;
+}
+
+#nav__opener {
+  display: none;
 }
 
 /* hero text and buttons */
@@ -100,9 +108,7 @@ header > .hero__text__button__wrapper > .btn__wrapper > .btn-2:hover {
   color: white;
 }
 
-#nav__opener {
-  display: none;
-}
+
 
 /* quick important media queries */
 
@@ -209,8 +215,18 @@ header > .hero__text__button__wrapper > .btn__wrapper > .btn-2:hover {
 }
 
 .section__meal > img {
-  width: 20%;
-  scale: (0);
+  width: 25%;
+  transition: all 0.5s;
+}
+
+.section__meal > img:hover{
+  opacity: 0.5;
+}
+
+@media(max-width : 600px){
+  .section__meal > img{
+    width: 50%;
+  }
 }
 
 /* ----------------------- Section how it works --------------------- */
@@ -674,6 +690,7 @@ footer {
   }
   .section__how__it__works > .main__how__it__works > img {
     width: 50%;
+    height: 600px;
   }
 }
 

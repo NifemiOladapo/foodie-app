@@ -24,26 +24,26 @@ header {
   background-position: center;
   background-size: cover;
   /* width: 100dvw; */
-height : 100vh;
+  height: 100vh;
   padding: 25px 110px;
-	
+
 }
 
 /* Nav */
 
-header > nav {
+header>nav {
   display: flex;
   /* background-color: blue; */
   align-items: center;
   justify-content: space-between;
 }
 
-header > nav > img {
+header>nav>img {
   height: 100px;
   /* flex: 0.1; */
 }
 
-header > nav > #main__nav {
+header>nav>#main__nav {
   display: flex;
   /* background-color: blue; */
   flex: 1;
@@ -51,16 +51,16 @@ header > nav > #main__nav {
   justify-content: flex-end;
 }
 
-header > nav > #main__nav p {
+header>nav>#main__nav p {
   color: white;
   /* font-size: 16px; */
   text-transform: uppercase;
   cursor: pointer;
   padding: 10px;
-	transition : all 1s
+  transition: all 1s
 }
 
-header > nav > #main__nav p:hover {
+header>nav>#main__nav p:hover {
   border-bottom: #e67e22 1px solid;
 }
 
@@ -70,40 +70,40 @@ header > nav > #main__nav p:hover {
 
 /* hero text and buttons */
 
-header > .hero__text__button__wrapper {
+header>.hero__text__button__wrapper {
   /* background-color: red; */
   margin-top: 25vh;
 }
 
-header > .hero__text__button__wrapper > h1 {
+header>.hero__text__button__wrapper>h1 {
   color: white;
   font-size: 50px;
   font-weight: 500;
   text-transform: uppercase;
 }
 
-header > .hero__text__button__wrapper > .btn__wrapper {
+header>.hero__text__button__wrapper>.btn__wrapper {
   margin-top: 50px;
 }
 
-header > .hero__text__button__wrapper > .btn__wrapper > .btn {
+header>.hero__text__button__wrapper>.btn__wrapper>.btn {
   padding: 15px 40px;
   border-radius: 30px;
   text-decoration: none;
 }
 
-header > .hero__text__button__wrapper > .btn__wrapper > .btn-1 {
+header>.hero__text__button__wrapper>.btn__wrapper>.btn-1 {
   background-color: #e67e22;
   color: white;
   margin-right: 10px;
 }
 
-header > .hero__text__button__wrapper > .btn__wrapper > .btn-2 {
+header>.hero__text__button__wrapper>.btn__wrapper>.btn-2 {
   color: #e67e22;
   border: 1px #e67e22 solid;
 }
 
-header > .hero__text__button__wrapper > .btn__wrapper > .btn-2:hover {
+header>.hero__text__button__wrapper>.btn__wrapper>.btn-2:hover {
   background-color: #e67e22;
   color: white;
 }
@@ -141,7 +141,7 @@ header > .hero__text__button__wrapper > .btn__wrapper > .btn-2:hover {
     align-items: center;
   }
 
-  #nav #main__nav > p {
+  #nav #main__nav>p {
     margin: 10px 0;
     color: #fff;
     z-index: 20;
@@ -157,12 +157,12 @@ header > .hero__text__button__wrapper > .btn__wrapper > .btn-2:hover {
   /* width: 100dvw; */
 }
 
-.section__features > .intro__text {
+.section__features>.intro__text {
   display: flex;
   flex-direction: column;
 }
 
-.section__features > .intro__text > h2 {
+.section__features>.intro__text>h2 {
   font-size: 40px;
   word-spacing: 2px;
   text-align: center;
@@ -172,7 +172,7 @@ header > .hero__text__button__wrapper > .btn__wrapper > .btn-2:hover {
   text-transform: uppercase;
 }
 
-.section__features > .intro__text > div {
+.section__features>.intro__text>div {
   background-color: #e67e22;
   width: 100px;
   height: 2px;
@@ -180,7 +180,7 @@ header > .hero__text__button__wrapper > .btn__wrapper > .btn-2:hover {
   margin: 30px 0;
 }
 
-.section__features > .intro__text > p {
+.section__features>.intro__text>p {
   color: gray;
   line-height: 25px;
   width: 70%;
@@ -189,19 +189,19 @@ header > .hero__text__button__wrapper > .btn__wrapper > .btn-2:hover {
   margin-top: 10px;
 }
 
-.section__features > .main__features {
+.section__features>.main__features {
   display: flex;
   margin-top: 50px;
   width: 100%;
   gap: 1.5rem;
 }
 
-.section__features > .main__features > .feature > h3 {
+.section__features>.main__features>.feature>h3 {
   margin-bottom: 10px;
   font-weight: 300;
 }
 
-.section__features > .main__features > .feature > p {
+.section__features>.main__features>.feature>p {
   color: gray;
   line-height: 25px;
 }
@@ -214,18 +214,24 @@ header > .hero__text__button__wrapper > .btn__wrapper > .btn-2:hover {
   flex-wrap: wrap;
 }
 
-.section__meal > img {
+.section__meal>img {
   width: 25%;
   transition: all 0.5s;
 }
 
-.section__meal > img:hover{
+.section__meal>img:hover {
   opacity: 0.5;
 }
 
-@media(max-width : 600px){
-  .section__meal > img{
+@media(max-width : 650px) {
+  .section__meal>img {
     width: 50%;
+  }
+}
+
+@media(max-width : 300px) {
+  .section__meal>img {
+    width: 100%;
   }
 }
 
@@ -238,13 +244,13 @@ header > .hero__text__button__wrapper > .btn__wrapper > .btn-2:hover {
   height: 100%;
 }
 
-.section__how__it__works > .intro__text {
+.section__how__it__works>.intro__text {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.section__how__it__works > .intro__text > h2 {
+.section__how__it__works>.intro__text>h2 {
   font-size: 40px;
   word-spacing: 2px;
   text-align: center;
@@ -254,7 +260,7 @@ header > .hero__text__button__wrapper > .btn__wrapper > .btn-2:hover {
   text-transform: uppercase;
 }
 
-.section__how__it__works > .intro__text > div {
+.section__how__it__works>.intro__text>div {
   background-color: #e67e22;
   width: 100px;
   height: 2px;
@@ -262,17 +268,17 @@ header > .hero__text__button__wrapper > .btn__wrapper > .btn-2:hover {
   margin: 30px 0;
 }
 
-.section__how__it__works > .main__how__it__works {
+.section__how__it__works>.main__how__it__works {
   display: flex;
   justify-content: space-between;
   margin-top: 30px;
 }
 
-.section__how__it__works > .main__how__it__works > img {
+.section__how__it__works>.main__how__it__works>img {
   height: 350px;
 }
 
-.section__how__it__works > .main__how__it__works > div {
+.section__how__it__works>.main__how__it__works>div {
   /* background-color: red; */
   display: flex;
   flex-direction: column;
@@ -280,20 +286,20 @@ header > .hero__text__button__wrapper > .btn__wrapper > .btn-2:hover {
   width: 50%;
 }
 
-.section__how__it__works > .main__how__it__works > div > div {
+.section__how__it__works>.main__how__it__works>div>div {
   display: flex;
   align-items: center;
   gap: 1rem;
 }
 
-.section__how__it__works > .main__how__it__works > div > div > h2 {
+.section__how__it__works>.main__how__it__works>div>div>h2 {
   padding: 15px;
   border: 1px solid #e67e22;
   border-radius: 1000px;
   color: #e67e22;
 }
 
-.section__how__it__works > .main__how__it__works > div > div > p {
+.section__how__it__works>.main__how__it__works>div>div>p {
   font-size: larger;
   color: gray;
 }
@@ -309,13 +315,13 @@ header > .hero__text__button__wrapper > .btn__wrapper > .btn-2:hover {
   /* width: 100dvw; */
 }
 
-.section__customers__testimonials > .intro__text {
+.section__customers__testimonials>.intro__text {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.section__customers__testimonials > .intro__text > h2 {
+.section__customers__testimonials>.intro__text>h2 {
   font-size: 40px;
   word-spacing: 2px;
   text-align: center;
@@ -325,7 +331,7 @@ header > .hero__text__button__wrapper > .btn__wrapper > .btn-2:hover {
   text-transform: uppercase;
 }
 
-.section__customers__testimonials > .intro__text > div {
+.section__customers__testimonials>.intro__text>div {
   background-color: #e67e22;
   width: 100px;
   height: 2px;
@@ -333,23 +339,20 @@ header > .hero__text__button__wrapper > .btn__wrapper > .btn-2:hover {
   margin: 30px 0;
 }
 
-.section__customers__testimonials > .testimonials__wrapper {
+.section__customers__testimonials>.testimonials__wrapper {
   display: flex;
   color: white;
   gap: 1.4rem;
 }
 
-.section__customers__testimonials > .testimonials__wrapper h3 {
+.section__customers__testimonials>.testimonials__wrapper h3 {
   color: white;
   font-style: italic;
   line-height: 30px;
   font-weight: 200;
 }
 
-.section__customers__testimonials
-  > .testimonials__wrapper
-  > .testimonial
-  > .user {
+.section__customers__testimonials>.testimonials__wrapper>.testimonial>.user {
   display: flex;
   align-items: center;
   gap: 0.5rem;
@@ -371,13 +374,13 @@ header > .hero__text__button__wrapper > .btn__wrapper > .btn-2:hover {
   background-color: whitesmoke;
 }
 
-.section__pricing > .intro__text {
+.section__pricing>.intro__text {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.section__pricing > .intro__text > h2 {
+.section__pricing>.intro__text>h2 {
   font-size: 40px;
   word-spacing: 2px;
   text-align: center;
@@ -387,7 +390,7 @@ header > .hero__text__button__wrapper > .btn__wrapper > .btn-2:hover {
   text-transform: uppercase;
 }
 
-.section__pricing > .intro__text > div {
+.section__pricing>.intro__text>div {
   background-color: #e67e22;
   width: 100px;
   height: 2px;
@@ -395,7 +398,7 @@ header > .hero__text__button__wrapper > .btn__wrapper > .btn-2:hover {
   margin: 30px 0;
 }
 
-.section__pricing > .prices__wrapper {
+.section__pricing>.prices__wrapper {
   display: flex;
   justify-content: space-between;
   /* gap: 4rem; */
@@ -403,43 +406,43 @@ header > .hero__text__button__wrapper > .btn__wrapper > .btn-2:hover {
   width: 100%;
 }
 
-.section__pricing > .prices__wrapper > .price {
+.section__pricing>.prices__wrapper>.price {
   background-color: white;
   border-radius: 10px;
   width: 32.26%;
 }
 
-.section__pricing > .prices__wrapper > .price > .top {
+.section__pricing>.prices__wrapper>.price>.top {
   padding: 20px;
 }
 
-.section__pricing > .prices__wrapper > .price > .top > h3 {
+.section__pricing>.prices__wrapper>.price>.top>h3 {
   color: grey;
   margin-bottom: 16px;
   font-weight: 200;
   font-size: x-large;
 }
 
-.section__pricing > .prices__wrapper > .price > .top > h1 {
+.section__pricing>.prices__wrapper>.price>.top>h1 {
   font-size: 50px;
   color: #e67e22;
   font-weight: 400;
 }
 
-.section__pricing > .prices__wrapper > .price > .middle {
+.section__pricing>.prices__wrapper>.price>.middle {
   border-bottom: 1px solid whitesmoke;
   border-top: 1px solid whitesmoke;
   padding: 20px;
 }
 
-.section__pricing > .prices__wrapper > .price > .bottom {
+.section__pricing>.prices__wrapper>.price>.bottom {
   padding: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.section__pricing > .prices__wrapper > .price > .bottom > button {
+.section__pricing>.prices__wrapper>.price>.bottom>button {
   padding: 10px 50px;
   border: 1px solid #e67e22;
   background-color: transparent;
@@ -448,12 +451,12 @@ header > .hero__text__button__wrapper > .btn__wrapper > .btn-2:hover {
   cursor: pointer;
 }
 
-.section__pricing > .prices__wrapper > .price > .bottom > button:hover {
+.section__pricing>.prices__wrapper>.price>.bottom>button:hover {
   background-color: #e67e22;
   color: white;
 }
 
-.section__pricing > .prices__wrapper > .premium > .bottom > button {
+.section__pricing>.prices__wrapper>.premium>.bottom>button {
   background-color: #e67e22;
   color: white;
 }
@@ -474,13 +477,13 @@ header > .hero__text__button__wrapper > .btn__wrapper > .btn-2:hover {
   flex-direction: column;
 }
 
-.section__form > .intro__text {
+.section__form>.intro__text {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.section__form > .intro__text > h2 {
+.section__form>.intro__text>h2 {
   font-size: 40px;
   word-spacing: 2px;
   text-align: center;
@@ -490,7 +493,7 @@ header > .hero__text__button__wrapper > .btn__wrapper > .btn-2:hover {
   text-transform: uppercase;
 }
 
-.section__form > .intro__text > div {
+.section__form>.intro__text>div {
   background-color: #e67e22;
   width: 100px;
   height: 2px;
@@ -498,12 +501,12 @@ header > .hero__text__button__wrapper > .btn__wrapper > .btn-2:hover {
   margin: 30px 0;
 }
 
-.section__form > form {
+.section__form>form {
   width: 80%;
   align-self: center;
 }
 
-.section__form > form > div {
+.section__form>form>div {
   display: flex;
   width: 100%;
   margin-bottom: 30px;
@@ -513,13 +516,13 @@ header > .hero__text__button__wrapper > .btn__wrapper > .btn-2:hover {
   /* background-color: blue; */
 }
 
-.section__form > form > div > p {
+.section__form>form>div>p {
   /* background-color: red; */
   /* width: 30%; */
   margin-bottom: 10px;
 }
 
-.section__form > form > div > input {
+.section__form>form>div>input {
   outline-width: 0;
   padding-left: 10px;
   font-size: large;
@@ -528,7 +531,7 @@ header > .hero__text__button__wrapper > .btn__wrapper > .btn-2:hover {
   /* width: 70%; */
 }
 
-.section__form > form button {
+.section__form>form button {
   background-color: #e67e22;
   border-radius: 30px;
   border-width: 0;
@@ -558,7 +561,8 @@ footer {
   header {
     padding: 25px 50px;
   }
-  header > .hero__text__button__wrapper > h1 {
+
+  header>.hero__text__button__wrapper>h1 {
     font-size: 45px;
     line-height: 55px;
   }
@@ -569,11 +573,12 @@ footer {
     padding: 25px 30px;
   }
 
-  header > .hero__text__button__wrapper > h1 {
+  header>.hero__text__button__wrapper>h1 {
     font-size: 30px;
     line-height: 40px;
   }
-  header > nav > img {
+
+  header>nav>img {
     height: 70px;
     /* flex: 0.1; */
   }
@@ -583,34 +588,38 @@ footer {
   header {
     padding: 10px 15px;
   }
-  header > .hero__text__button__wrapper {
+
+  header>.hero__text__button__wrapper {
     /* background-color: red; */
     margin-top: 90px;
   }
-  header > .hero__text__button__wrapper > h1 {
+
+  header>.hero__text__button__wrapper>h1 {
     /* font-size: 20px; */
   }
-  header > .hero__text__button__wrapper > .btn__wrapper > .btn {
+
+  header>.hero__text__button__wrapper>.btn__wrapper>.btn {
     padding: 15px 25px;
   }
 }
 
 @media (max-width: 375px) {
-  header > .hero__text__button__wrapper > h1 {
+  header>.hero__text__button__wrapper>h1 {
     font-size: 25px;
     line-height: 35px;
   }
 }
 
-@media (max-width: 340px) {
-  header > .hero__text__button__wrapper > .btn__wrapper {
+@media (max-width: 350px) {
+  header>.hero__text__button__wrapper>.btn__wrapper {
     display: flex;
     /* align-items: center; */
     flex-direction: column;
     /* background-color: red; */
     justify-content: flex-start;
   }
-  header > .hero__text__button__wrapper > .btn__wrapper > .btn-1 {
+
+  header>.hero__text__button__wrapper>.btn__wrapper>.btn-1 {
     margin-bottom: 10px;
     margin-right: 0;
   }
@@ -619,32 +628,36 @@ footer {
 /* ------------------------ features section ----------------------- */
 
 @media (max-width: 1110px) {
-  .section__features > .intro__text > h2 {
+  .section__features>.intro__text>h2 {
     font-size: 30px;
   }
-  .section__features > .intro__text > p {
+
+  .section__features>.intro__text>p {
     width: 90%;
     font-size: large;
   }
+
   .section__features {
     padding: 40px 50px;
   }
 }
 
 @media (max-width: 770px) {
-  .section__features > .intro__text > h2 {
+  .section__features>.intro__text>h2 {
     font-size: 20px;
   }
+
   .section__features {
     padding: 25px 30px;
   }
-  .section__features > .main__features {
+
+  .section__features>.main__features {
     flex-wrap: wrap;
   }
 }
 
 @media (max-width: 705px) {
-  .section__features > .intro__text > p {
+  .section__features>.intro__text>p {
     font-size: medium;
     width: 100%;
   }
@@ -653,7 +666,7 @@ footer {
 /* ----------------------- section how it works ------------------------ */
 
 @media (max-width: 1110px) {
-  .section__how__it__works > .intro__text > h2 {
+  .section__how__it__works>.intro__text>h2 {
     font-size: 30px;
   }
 
@@ -663,42 +676,46 @@ footer {
 }
 
 @media (max-width: 890px) {
-  .section__how__it__works > .main__how__it__works > div {
+  .section__how__it__works>.main__how__it__works>div {
     width: 70%;
     /* background-color: red; */
   }
 }
 
 @media (max-width: 770px) {
-  .section__how__it__works > .intro__text > h2 {
+  .section__how__it__works>.intro__text>h2 {
     font-size: 20px;
   }
+
   .section__how__it__works {
     padding: 25px 30px;
   }
 }
 
 @media (max-width: 700px) {
-  .section__how__it__works > .main__how__it__works {
+  .section__how__it__works>.main__how__it__works {
     flex-direction: column;
     align-items: center;
   }
-  .section__how__it__works > .main__how__it__works > div {
+
+  .section__how__it__works>.main__how__it__works>div {
     width: 100%;
     margin-top: 30px;
     /* background-color: red; */
   }
-  .section__how__it__works > .main__how__it__works > img {
+
+  .section__how__it__works>.main__how__it__works>img {
     width: 50%;
-    height: 600px;
+    /* height: 600px; */
   }
 }
 
 @media (max-width: 450px) {
-  .section__how__it__works > .main__how__it__works > img {
+  .section__how__it__works>.main__how__it__works>img {
     width: 90%;
   }
-  .section__how__it__works > .main__how__it__works > div > div {
+
+  .section__how__it__works>.main__how__it__works>div>div {
     flex-direction: column;
   }
 }
@@ -706,7 +723,7 @@ footer {
 /* -------------------------- section customers testimonials ----------------------- */
 
 @media (max-width: 1110px) {
-  .section__customers__testimonials > .intro__text > h2 {
+  .section__customers__testimonials>.intro__text>h2 {
     font-size: 30px;
   }
 
@@ -716,17 +733,20 @@ footer {
 }
 
 @media (max-width: 770px) {
-  .section__customers__testimonials > .intro__text > h2 {
+  .section__customers__testimonials>.intro__text>h2 {
     font-size: 20px;
   }
+
   .section__customers__testimonials {
     padding: 25px 30px;
   }
-  .section__customers__testimonials > .testimonials__wrapper {
+
+  .section__customers__testimonials>.testimonials__wrapper {
     flex-direction: column;
     gap: 2rem;
   }
-  .section__customers__testimonials > .testimonials__wrapper h3 {
+
+  .section__customers__testimonials>.testimonials__wrapper h3 {
     font-size: medium;
   }
 }
@@ -734,7 +754,7 @@ footer {
 /* ---------------------- section pricing ------------------------- */
 
 @media (max-width: 1110px) {
-  .section__pricing > .intro__text > h2 {
+  .section__pricing>.intro__text>h2 {
     font-size: 30px;
   }
 
@@ -744,26 +764,28 @@ footer {
 }
 
 @media (max-width: 770px) {
-  .section__pricing > .intro__text > h2 {
+  .section__pricing>.intro__text>h2 {
     font-size: 20px;
   }
+
   .section__pricing {
     padding: 25px 30px;
   }
 }
 
 @media (max-width: 960px) {
-  .section__pricing > .prices__wrapper {
+  .section__pricing>.prices__wrapper {
     flex-direction: column;
     gap: 2rem;
   }
-  .section__pricing > .prices__wrapper > .price {
+
+  .section__pricing>.prices__wrapper>.price {
     width: 100%;
   }
 }
 
 @media (max-width: 308px) {
-  .section__pricing > .prices__wrapper > .price > .bottom > button {
+  .section__pricing>.prices__wrapper>.price>.bottom>button {
     padding: 10px 20px;
     font-size: medium;
   }
@@ -772,7 +794,7 @@ footer {
 /* ------------------------- Form section -------------------------  */
 
 @media (max-width: 1110px) {
-  .section__form > .intro__text > h2 {
+  .section__form>.intro__text>h2 {
     font-size: 30px;
   }
 
@@ -782,10 +804,17 @@ footer {
 }
 
 @media (max-width: 770px) {
-  .section__form > .intro__text > h2 {
+  .section__form>.intro__text>h2 {
     font-size: 20px;
   }
+
   .section__form {
     padding: 25px 30px;
+  }
+}
+
+@media(max-width : 500px) {
+  .section__form>form {
+    width: 100%;
   }
 }
